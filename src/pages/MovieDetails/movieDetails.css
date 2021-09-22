@@ -1,7 +1,7 @@
 .movie-details-section {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  padding: 40px;
   flex-direction: column;
   background-color: black;
   color: rgb(214, 213, 213);
@@ -9,12 +9,14 @@
 
 .movie-details-image {
   border-radius: 5px;
-  padding-top: 15px;
+  padding-top: 10px;
+  height: 600px;
+  width: 100%;
 }
 
 .movie-details {
   width: 675px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .movie-details a {
